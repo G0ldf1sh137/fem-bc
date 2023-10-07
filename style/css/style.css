@@ -1,0 +1,46 @@
+/* my first css */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffcc;
+}
+img {
+  border: 10px solid green;
+}
+h1 {
+  border: 5px dotted red;
+  text-align: center;
+  background-color: aquamarine;
+}
+blockquote {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  font-style: italic;
+  text-align: center;
+}
+cite {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.bigbold {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+li {
+  font-family: cursive;
+}
+ul a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: brown;
+  font-size: 2rem;
+}
+a:visited {
+  color: green;
+  font-weight: normal;
+}
+ul a:hover {
+  color: orange;
+  background-color: white;
+  text-decoration: underline;
+}
