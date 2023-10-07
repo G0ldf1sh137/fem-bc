@@ -1,0 +1,87 @@
+:root {
+  --ash-gray: #CBD4C2;
+  --tea-green: #DBEBC0;
+  --khaki: #C3B299;
+  --rose-taupe: #815355;
+  --violet-jtc: #523249;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: var(--ash-gray);
+  margin: 0;
+}
+header, nav {
+  background-color: var(--khaki);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1, h2, h3 {
+  color: var(--violet-jtc);
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+.wrapper {
+  border: 5px solid red;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+a {
+  color: var(--violet-jtc);
+}
+
+
+
+nav {
+  /* border-top: 1px solid #DA0090;
+  border-bottom: 1px solid #A51F10; */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  /* border: 3px solid orange; */
+  display: inline-block;
+  padding: 0;
+  /* margin: .5rem 1rem; */
+}
+nav a {
+  margin: 0;
+  display: block;
+  padding: .5rem 1rem;
+}
+nav a:hover {
+  background-color: var(--tea-green);
+
+}
+
+
+
+
+
+
+.fem-bc {
+  /* border: 5px solid blue */
+  
+}
+
+.pets {
+
+}
+
+.pets img {
+  width: 20%;
+  align-items: center;
+}
